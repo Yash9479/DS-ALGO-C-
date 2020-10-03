@@ -1,6 +1,21 @@
 # DS-ALGO-C++
 ## This is a repo for DS Algo in C++
 Top algorithms –
+Sorting:
+sort
+Sort elements in range (function template )
+stable_sort
+Sort elements preserving order of equivalents (function template )
+partial_sort
+Partially sort elements in range (function template )
+partial_sort_copy
+Copy and partially sort range (function template )
+is_sorted 
+Check whether range is sorted (function template )
+is_sorted_until 
+Find first unsorted element in range (function template )
+nth_element
+Sort element in range (function template )
 - Insertion sort, Selection sort,
 - Merge Sort, Quicksort
 - Binary Search
