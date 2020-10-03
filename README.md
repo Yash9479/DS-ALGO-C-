@@ -34,14 +34,14 @@ Top algorithms –
 - One is also expected to be familiar with other programming paradigms like Backtracking, Dynamic Programming, Divide & Conquer, Greedy Algorithms and concepts like Hashing and Recursion.
 
 ## Top Books for Data Structures and Algo –
-– Introduction to Algorithms by Thomas H. Cormen
-– Algorithms by Robert Sedgewick & Kevin Wayne
-– The Algorithm Design Manual by Steve S. Skiena
-– Algorithm for Interviews
-– Algorithm in Nutshell
-– Algorithm Design by Kleinberg & Tardos
-– The Design and Analysis of Algorithms
-– Introduction to Algorithms: A Creative Approach
+- Introduction to Algorithms by Thomas H. Cormen
+- Algorithms by Robert Sedgewick & Kevin Wayne
+- The Algorithm Design Manual by Steve S. Skiena
+- Algorithm for Interviews
+- Algorithm in Nutshell
+- Algorithm Design by Kleinberg & Tardos
+- The Design and Analysis of Algorithms
+- Introduction to Algorithms: A Creative Approach
 
 // Source: Medium @javinpaul
 
