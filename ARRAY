@@ -1,0 +1,13 @@
+//wap to accept 10 int & display it in the screen
+#include <iostream.h>
+#include <conio.h>
+
+void main(){
+ int a[10],i;
+  cout<<"enter values:" ;
+ for(i=0;i<10;i++)
+  cin>>a[i];
+  cout<<"\n value entered:" ;
+  for(i=0;i<10;i++)
+  cout<< a[i] <<",";
+  }
