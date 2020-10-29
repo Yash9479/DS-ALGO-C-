@@ -1,0 +1,18 @@
+#include <iostream.h>
+#include <conio.h>
+void main(){
+
+    int i,j,mat[3][3];
+    cout << "\n enter values:";
+    for(i=1;i<=3;i++){
+    for(j=1;j<=3;j++)
+    cin>>mat[i][j];
+    }
+   cout<<"\n your result matrix is: " ;
+   for(i=1;i<=3;i++){
+   for(j=1;j<=3;j++)
+   cout<<mat[3][3]<<" ";
+   cout<<endl;
+   }
+   getch();
+}
