@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+int a;
+printf("ENTER A NUMBER FOR FINDING ITS FACTORIAN:");
+scanf("%d",&a);
+fact(a);
+getch();
+}
+int fact(int x)
+{
+int i=1,j;
+for(j=1;j<=x;i++)
+  {  i=i*j; }
+printf("FACTORIAN OF GIVEN NUMBER IS:%d",i)
+return i;
+}
