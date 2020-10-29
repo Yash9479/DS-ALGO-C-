@@ -1,0 +1,51 @@
+#include <iostream.h>
+#include <string.h>
+
+class garment{
+   char  gcode[10],gtype[12],gfabric[23],gsize[34];
+   float price;
+   void assign(){
+    if ((strcmp(gfabric,"cotton")==0) && (strcmp(gtype,"trouser")==0))
+	 price=3000.0;
+    else if((strcmp(gfabric,"cotton")==0) && (strcmp(gtype,"shirt")==0))
+	 price=2000.0;
+    else if((strcmp(gfabric,"silk")!=0) && (strcpy(gtype,"trouser")==0))
+	 price=750.0;
+    else if((strcmp(gfabric,"silk")!=0) && (strcpy(gtype,"shirt")==0))
+	 price=500.0;
+   }
+ public:
+   garment(){
+     strcpy(gcode,"");
+     strcpy(gtype,"");
+     strcpy(gfabric,"");
+     price=0.0;
+     strcpy(gsize,"");
+    }
+    ~garment(){}
+   void input(){
+    cout<<"enter garment code:";
+    cin>>gcode;
+    cout<<"\n enter garment type:";
+    cin>>gtype;
+    cout<<"\n enter garment size:";
+    cin>>gsize;
+    cout<<"\n enter garment fabric:";
+    cin>>gfabric;
+    assign();
+
+   }
+   void display(){
+      cout<<"garment code:"<<gcode ;
+      cout<<"garment type:"<<gtype;
+      cout<<"garmernt size:"<<gsize;
+      cout<<"garment fabric:"<<gfabric;
+      cout<<"garment price:"<<price;
+   }
+};
+
+void main(){
+  garment A;
+  A.input();
+  A.display();
+}
