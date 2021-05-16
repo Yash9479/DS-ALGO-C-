@@ -12,8 +12,9 @@ jobs:
             - name: Fetch resources
               run: ./scripts/fetch-resources.sh
 
-            - name: Update resources
-              uses: DSCBITDurg/DS-ALGO-C-@v1
+            - name: github-update-readme
+              uses: theboi/github-update-readme@v1.3.0
+
               with:
                   file-path: https://github.com/DSCBITDurg/DS-ALGO-C-#readme
                   commit-msg: Update resources
