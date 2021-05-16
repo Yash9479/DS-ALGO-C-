@@ -1,4 +1,4 @@
-name: Resources
+name: DS-ALGO-c-
 on: repository_dispatch
 jobs:
     resources:
