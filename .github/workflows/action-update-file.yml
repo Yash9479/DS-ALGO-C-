@@ -1,19 +1,14 @@
-name: DS-ALGO-C-
+name: update-readme-file
 on: repository_dispatch
 jobs:
     resources:
         name: Update resources
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v1
 
-            - uses: actions/setup-node@v1
 
-            - name: Fetch resources
-              run: ./scripts/fetch-resources.sh
-
-            - name: github-update-readme
-              uses: theboi/github-update-readme@v1.3.0
+            - name: ReadMe-Update
+              uses: DSCBITDurg/DS_Algo-C-@v1
 
               with:
                   file-path: https://github.com/DSCBITDurg/DS-ALGO-C-#readme
