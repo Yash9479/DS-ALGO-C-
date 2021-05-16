@@ -7,7 +7,7 @@ jobs:
         steps:
 
 
-            - name: ReadMe-Update
+            - name: ReadMe
               uses: DSCBITDurg/DS_Algo-C-@v1
 
               with:
